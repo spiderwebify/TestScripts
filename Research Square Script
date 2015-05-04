@@ -1,0 +1,1 @@
+<?php $i=1;$j=1;$k=1;while($i<=100){if($j!=3 && $k!=5){echo $i;}if($j==3){echo "Fizz";$j=1;}else{$j++;} if($k==5){echo "Buzz";$k=1;}else{$k++;} echo "<br />"; $i++; } ?>
